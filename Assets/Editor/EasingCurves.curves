@@ -2764,7 +2764,7 @@ MonoBehaviour:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-  - m_Name: SineEaseOutIn
+  - m_Name: ElasticEaseOutIn
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -3388,7 +3388,7 @@ MonoBehaviour:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-  - m_Name: SineEaseOutIn
+  - m_Name: BounceEaseOutIn
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -4012,7 +4012,7 @@ MonoBehaviour:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-  - m_Name: SineEaseOutIn
+  - m_Name: BackEaseOutIn
     m_Curve:
       serializedVersion: 2
       m_Curve:

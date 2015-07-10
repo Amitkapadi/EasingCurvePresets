@@ -73,17 +73,17 @@ public class CurveGenerator : MonoBehaviour
         addCurve(library, PennerDoubleAnimation.ElasticEaseOut, 30, "ElasticEaseOut");
         addCurve(library, PennerDoubleAnimation.ElasticEaseIn, 30, "ElasticEaseIn");
         addCurve(library, PennerDoubleAnimation.ElasticEaseInOut, 30, "ElasticEaseInOut");
-        addCurve(library, PennerDoubleAnimation.ElasticEaseOutIn, 30, "SineEaseOutIn");
+        addCurve(library, PennerDoubleAnimation.ElasticEaseOutIn, 30, "ElasticEaseOutIn");
 
         addCurve(library, PennerDoubleAnimation.BounceEaseOut, 30, "BounceEaseOut");
         addCurve(library, PennerDoubleAnimation.BounceEaseIn, 30, "BounceEaseIn");
         addCurve(library, PennerDoubleAnimation.BounceEaseInOut, 30, "BounceEaseInOut");
-        addCurve(library, PennerDoubleAnimation.BounceEaseOutIn, 30, "SineEaseOutIn");
+        addCurve(library, PennerDoubleAnimation.BounceEaseOutIn, 30, "BounceEaseOutIn");
 
         addCurve(library, PennerDoubleAnimation.BackEaseOut, 30, "BackEaseOut");
         addCurve(library, PennerDoubleAnimation.BackEaseIn, 30, "BackEaseIn");
         addCurve(library, PennerDoubleAnimation.BackEaseInOut, 30, "BackEaseInOut");
-        addCurve(library, PennerDoubleAnimation.BackEaseOutIn, 30, "SineEaseOutIn");
+        addCurve(library, PennerDoubleAnimation.BackEaseOutIn, 30, "BackEaseOutIn");
 
         AssetDatabase.CreateAsset(library, "Assets/Editor/EasingCurves.curves");
         AssetDatabase.SaveAssets();
